@@ -1,0 +1,52 @@
+<script type="module">
+import { language } from './detection.js';
+
+// Récupérer le contenu du fichier JSON
+fetch('./translation/' +language + '.json')
+  .then(response => response.json())
+  .then(data => {
+    // Parcourir les propriétés de l'objet JSON
+    for (const [key, value] of Object.entries(data)) {
+      // Créer une variable à partir du nom de la propriété
+      window[key] = value;
+    
+    }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                             exemple :                                                                //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        document.querySelector('title').textContent = titlehead;
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  'title' = <title> ligne 46                                                                          //
+//                                                                                                      //
+//  titlehead = "titlehead" in langue config (exemple fr.json ligne 2)                                  //
+//                                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+  })
+  .catch(error => console.error(`Erreur lors de la récupération du fichier JSON : ${error}`));
+
+
+
+</script>
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Traduction</title>
+  </head>
+  <body>
+    <h1>Titre principal</h1>
+    <p>Ceci est un paragraphe.</p>
+  </body>
+</html>
