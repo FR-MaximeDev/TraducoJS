@@ -1,7 +1,7 @@
 
 # TraducoJS
 
-A basic translation system for javascript, for your website
+A basic translation system for javascript, for your website made in 2 hour
 
 
 ## Documentation
