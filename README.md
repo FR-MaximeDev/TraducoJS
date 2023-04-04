@@ -52,3 +52,17 @@ you can create files for other languages, for example, if you want to translate 
 - add a default language
 
 
+
+## Support
+
+For support, email : contact@maxime-lscr.me
+
+
+## 🚀 About Me
+https://maxime-lscr.Me 
+
+https://github.com/KiraZ-69/
+
+https://twitter.com/FR_KiraZ
+
+https://www.linkedin.com/in/maxime-lescure/
