@@ -1,0 +1,2 @@
+# TraducoJS
+Javascript translation system
