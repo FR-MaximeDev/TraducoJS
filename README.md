@@ -61,8 +61,8 @@ For support, email : contact@maxime-lscr.me
 ## 🚀 About Me
 https://maxime-lscr.Me 
 
-https://github.com/KiraZ-69/
+[https://github.com/KiraZ-69/](https://github.com/FR-MaximeDev)
 
-https://twitter.com/FR_KiraZ
+[https://twitter.com/FR_KiraZ](https://twitter.com/FR_MaximeDev)
 
 https://www.linkedin.com/in/maxime-lescure/
